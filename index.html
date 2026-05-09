@@ -204,14 +204,21 @@ body {
 .chart-container { position: relative; height: 250px; margin-bottom: 16px; }
 
 /* Filters */
-.filters { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.filters { display: flex; gap: 8px; margin-bottom: 12px; overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+.filters::-webkit-scrollbar { display: none; }
 .filter-chip {
   padding: 6px 14px; border-radius: 20px;
   border: 1px solid var(--border); background: white;
   font-size: 0.78rem; white-space: nowrap; cursor: pointer;
+  flex: 0 0 auto;
   transition: var(--transition);
 }
 .filter-chip.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+/* Small screen: stack form rows */
+@media (max-width: 480px) {
+  .form-row { flex-direction: column; gap: 0; }
+}
 
 /* Date grouping */
 .date-header {
