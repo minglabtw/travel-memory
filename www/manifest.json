@@ -1,0 +1,16 @@
+{
+  "name": "銘旅隨記",
+  "short_name": "銘旅隨記",
+  "description": "旅行記帳 + 隨筆回憶 + 一鍵匯出 Markdown",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#E27D60",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
