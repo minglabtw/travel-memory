@@ -1,8 +1,9 @@
 const CACHE = 'travel-expense-v2';
+const BASE = self.location.pathname.replace(/\/sw\.js$/, '/');
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
+  BASE,
+  BASE + 'index.html',
+  BASE + 'manifest.json',
   'https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js'
 ];
 
