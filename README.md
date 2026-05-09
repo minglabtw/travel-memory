@@ -1,6 +1,22 @@
 # 銘旅隨記 · 銘於心 (MING)
 
-> 旅行開銷記錄 App — 記帳、匯率換算、照片、GPS 定位、統計圖表一應俱全
+> 每一趟旅行，都是一本用腳寫的日記。  
+> 在京都吃過的那碗拉麵，在淺草寺前買的御守，在機場匆忙登機前的一杯咖啡⋯⋯  
+> 花出去的每一塊錢，都是一段故事的開端。  
+>
+> **銘旅隨記** 是一個輕量的旅行日記帳本 — 記下花費、拍張照片、寫幾句話。  
+> 不囉嗦，不上傳雲端，所有回憶只留在你的手機裡。
+>
+> 它適合這樣用：
+> - 🍜 吃完一碗拉麵 → 拍張照，記下多少錢
+> - 🏨 晚上回旅館 → 看看今天花了多少、分類佔比
+> - 📤 旅程結束 → 一鍵匯出 Markdown 當作回憶錄
+>
+> **開發用意：**
+> 旅行中的花費不只是數字 — 每一筆都是一段回憶的起點。
+> 銘旅隨記的設計很簡單：打開就記，記完就關。不需要帳號、不需要研究功能、不需要擔心資料外洩。把力氣留給旅行，而不是記帳。
+>
+> 這也是一個「人機協作」的實驗作品 — 從一行 HTML 出發，透過 AI 與開發者的反覆迭代，長成 Android App + PWA。程式碼完全開源，所有資料存在本機，你的旅行回憶只屬於你。
 
 [![PWA](https://img.shields.io/badge/PWA-%E2%9E%A1%EF%B8%8F%20%E9%96%8B%E5%95%9F-orange?style=flat-square)](https://minglabtw.github.io/travel-memory/)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](https://github.com/minglabtw/travel-memory/releases)
