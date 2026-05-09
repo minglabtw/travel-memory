@@ -130,12 +130,16 @@ body {
   font-family: inherit;
   box-sizing: border-box;
 }
+.form-group input[type="date"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
 .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
   outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(226,125,96,0.15);
 }
 .form-group textarea { resize: vertical; min-height: 60px; }
 .form-row { display: flex; flex-direction: column; }
-.form-row > * { flex: 1; min-width: 0; }
+.form-row > * { flex: 1; min-width: 0; width: 100%; }
 
 /* Buttons */
 .btn {
