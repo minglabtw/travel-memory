@@ -3,6 +3,14 @@
 > **版本：** v1.0.0 · 2026-05-09  
 > **開發模式：** 人機協作（人類需求 + AI 實作）
 
+## GitHub 上架資訊
+
+| 項目 | 內容 |
+|------|------|
+| GitHub 帳號 | **minglabtw** |
+| Repo 名稱 | travel-memory |
+| Repo 網址 | https://github.com/minglabtw/travel-memory |
+
 ---
 
 ## 專案成果
@@ -45,7 +53,7 @@
 
 | 項目 | 路徑 |
 |------|------|
-| 專案目錄 | `/Users/yezhiming/網頁實驗品/旅程回憶錄/` |
+| 專案目錄 | `/Users/yezhiming/Documents/ONAI/40-專案區/travel-memory/` |
 | GitHub Repo | https://github.com/minglabtw/travel-memory |
 | PWA | https://minglabtw.github.io/travel-memory/ |
 | APK | `android/app/build/outputs/apk/debug/travel-memory-v1.0.0-debug.apk` |
